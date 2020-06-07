@@ -161,7 +161,7 @@ nav ul li a {
 }
 
 .soft-skills-section {
-  background: url(/public/img/about-me.jpg)
+  background: url("../../img/about-me.jpg")
     no-repeat left;
   background-size: 55%;
   background-color: #18181e;
