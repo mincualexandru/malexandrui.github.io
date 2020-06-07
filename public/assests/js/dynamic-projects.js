@@ -16,7 +16,7 @@ const allProjects = [
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repellat laborum sit atque cum numquam. Consequuntur porro delectus magni quae ad non recusandae, ducimus voluptas perferendis animi excepturi maiores!",
     siteUrl: "/",
     gitHubUrl: "/",
-    mainImage: "../public/img/main-imag-fit-buddy.png",
+    mainImage: "img/main-imag-fit-buddy.png",
     technologiesUsed: [
       "spring-logo",
       "bootstrap-logo",
@@ -32,7 +32,7 @@ const allProjects = [
     description: "tralala mobile data transfer",
     siteUrl: "",
     gitHubUrl: "",
-    mainImage: "../public/img/angular-logo.png",
+    mainImage: "img/angular-logo.png",
     technologiesUsed: [
       "bootstrap-logo",
       "angular-logo"
@@ -136,7 +136,7 @@ function modifyPropertiesOfProject(selectedNameOfProject) {
 
 function modifyTechnologiesOfProject(selectedNameOfProject) {
   selectedNameOfProject.technologiesUsed.forEach(technology => {
-    srcImage = "../public/img/" + technology + ".png";
+    srcImage = "img/" + technology + ".png";
     let parent = document.createElement('div');
     let child = document.createElement('img');
     parent.className = 'container-skills no-height';
