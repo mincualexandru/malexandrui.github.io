@@ -1,0 +1,244 @@
+@media screen and (max-width: 1200px) {
+  .soft-skills-content {
+    padding: 80px;
+  }
+  @media screen and (max-width: 1200px) {
+    .soft-skills-content {
+      padding: 80px;
+    }
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .error {
+    padding-top: 125px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .techinal-skills-flex {
+    flex-direction: column;
+  }
+  .technical-skill-li {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .technical-skill-li > .technical-skill-text {
+    flex: 2 0 0%;
+    margin: auto 0;
+    text-align: center;
+    max-width: 65%;
+    padding: 0px;
+  }
+  .technical-skill-text p {
+    font-size: 1.2rem;
+  }
+  .column-flex-direction {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    background: #18181e;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 10px;
+  }
+  .model {
+    display: none;
+  }
+  .text-container {
+    top: 46%;
+  }
+  .text-container button {
+    margin: 5px;
+  }
+  .soft-skills-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .soft-skills-content {
+    width: 100%;
+  }
+  .number-section {
+    font-size: 3.5rem;
+    margin: 20px;
+  }
+  .tech {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .nav-and-presensation {
+    background-image: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .text-container-subtitle p:nth-child(3) {
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav ul {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebeef4;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    display: none;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  nav ul li a {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #5c5c5c;
+  }
+  nav ul li a:hover {
+    color: #121212;
+  }
+  .toggle:before {
+    content: "\f0c9";
+    line-height: 30px;
+    z-index: 1;
+    font-family: fontAwesome;
+  }
+  .toggle.active:before {
+    content: "\f00d";
+    position: fixed;
+    right: 25px;
+    line-height: 0px;
+  }
+  nav.active ul {
+    display: flex !important;
+  }
+  .text-container-subtitle {
+    flex-direction: column-reverse;
+  }
+  .text-container-subtitle p:nth-child(2),
+  .text-container-subtitle p:nth-child(3) {
+    display: none;
+  }
+  footer p:nth-child(2) {
+    width: 90%;
+  }
+  .title-section {
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .increase-size-parent {
+    height: 290px;
+  }
+  .increase-size-image {
+    top: 45px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+  }
+  .options-for-user {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .options-for-user-item {
+    border: 2px solid;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  #gitHubLink {
+    font-size: 19px;
+  }
+  .options-for-user p {
+    display: none;
+  }
+  .return-main {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .soft-skills-content h1 {
+    font-size: 3.4em;
+  }
+  .soft-skills {
+    flex-direction: column;
+  }
+  .soft-skills-flex {
+    margin: 5px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .soft-skills-section {
+    padding: 0;
+  }
+  .soft-skills-content {
+    padding: 40px 25px 40px 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .oops-error {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 541px) {
+  .text-container {
+    top: 55%;
+  }
+  .text-container-subtitle p:nth-child(3) {
+    margin-top: 10px !important;
+    font-size: 1em;
+  }
+  .ui {
+    font-size: 2.5em;
+  }
+  .text-container p#role {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+  .title-section {
+    padding-top: 80px;
+  }
+  .logo {
+    margin-top: 0px;
+  }
+  .toggle {
+    margin-top: 12px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 542px) and (max-width: 750px) {
+  .toggle {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  .oops-error {
+    font-size: 4rem;
+  }
+}
