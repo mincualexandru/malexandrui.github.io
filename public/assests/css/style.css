@@ -161,7 +161,7 @@ nav ul li a {
 }
 
 .soft-skills-section {
-  background: url("img/about-me.jpg")
+  background: url("../../img/about-me.jpg")
     no-repeat left;
   background-size: 55%;
   background-color: #18181e;
@@ -699,4 +699,26 @@ a#back-top {
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 0px;
+}
+
+.flex-errors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.error-title {
+  font-size: 2rem;
+    font-weight: 600;
+}
+
+.error-item {
+  font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.margin-0 {
+  margin: 5px;
 }
