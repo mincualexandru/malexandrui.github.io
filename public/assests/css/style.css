@@ -230,6 +230,14 @@ nav ul li a {
 
 .container-skills {
   position: relative;
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    margin: 35px;
+}
+
+.container-skills-tech {
+  position: relative;
   width: auto;
   height: 320px;
   display: inline-block;
@@ -237,6 +245,14 @@ nav ul li a {
 }
 
 .image {
+  display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #dec79b;
+    padding: 20px 30px;
+}
+
+.image-tech {
   display: block;
   width: 100%;
   height: 100%;
@@ -276,6 +292,7 @@ nav ul li a {
   top: 0;
   left: 0;
   background-color: #dec79b;
+  padding: 20px 30px;
 }
 
 .container-skills:hover .overlay,
@@ -601,10 +618,10 @@ footer p:nth-child(2) {
   height: 500px;
 }
 .increase-size-image {
-  top: 60px;
-  left: -10px;
-  width: 100%;
-  height: 80%;
+  top: 120px;
+    left: -10px;
+    width: 100%;
+    height: 55%;
 }
 .container-technologies {
   list-style: none;

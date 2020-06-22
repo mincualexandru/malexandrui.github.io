@@ -13,9 +13,9 @@ const allProjects = [
   {
     nameOfProject: "Fit Buddy",
     alias: "fitbuddy",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repellat laborum sit atque cum numquam. Consequuntur porro delectus magni quae ad non recusandae, ducimus voluptas perferendis animi excepturi maiores!",
-    siteUrl: "/",
-    gitHubUrl: "/",
+    description: "Fitness and health web application meant to helps users change their lifestyle by monitoring daily effort and energy intake. In addition to monitoring, the application through various expert provides users with a wide range of options(training plans, nutrition plans) specially created for the fulfillment of certain physical objectives. This application communicates with the another application(Mobile Data Transfer) for receiving data from users who use different products from Xiaomi. This data are displayed as tables or graphs.",
+    siteUrl: "",
+    gitHubUrl: "https://github.com/mincualexandru/Licenta",
     mainImage: "img/main-imag-fit-buddy.png",
     technologiesUsed: [
       "spring-logo",
@@ -23,83 +23,50 @@ const allProjects = [
       "mysql-logo",
       "thymeleaf-logo",
       "hibernate-logo",
-      "angular-logo"
+      "html-logo",
+      "css-logo",
+      "javascript-logo",
+      "jquery-logo"
     ]
   },
   {
     nameOfProject: "Mobile Data Transfer",
     alias: "mdt",
-    description: "tralala mobile data transfer",
-    siteUrl: "",
-    gitHubUrl: "",
-    mainImage: "img/angular-logo.png",
+    description: "It's main purpose is to help customers upload their data file(number of calories burned, sleep analysis, steps taken, etc.) from Xiaomi products, which will be viewed in another application(Fit Buddy). Data is transferred by coomunicating with a server developed in Spring through various http methods.",
+    siteUrl: "https://mobile-data-transfer-2020.web.app/auth",
+    gitHubUrl: "https://github.com/mincualexandru/Licenta",
+    mainImage: "img/main-img-mdt.png",
     technologiesUsed: [
-      "bootstrap-logo",
-      "angular-logo"
+      "angular-logo",
+      "firebase-logo",
+      "spring-logo"
     ]
   },
   {
-    nameOfProject: "Salarioumetru",
+    nameOfProject: "Salariometru",
     alias: "salary",
-    description: "tralala salariometru",
+    description: "The user that accesses this application has the opportunity to find, based on his gross salary, different deductions of the employer, the net salary, the full salary and to visualize a chart divided into different tax categories.",
     siteUrl: "",
-    gitHubUrl: "",
-    mainImage: "",
+    gitHubUrl: "https://github.com/mincualexandru/salariometru",
+    mainImage: "img/main-img-salariometru.png",
     technologiesUsed: [
-      "spring-logo",
-      "bootstrap-logo",
-      "mysql-logo",
-      "thymeleaf-logo",
-      "hibernate-logo",
-      "angular-logo"
+      "angular-logo",
+      "html-logo",
+      "css-logo",
+      "charts-logo"
     ]
   },
   {
-    nameOfProject: "Covid-19 Tracker",
-    alias: "covid",
-    description: "tralala covid-19 Tracker",
+    nameOfProject: "Refresh",
+    alias: "refresh",
+    description: "Refresh is a personal project developed to promote smoothies. Users can view a wide range of smoothies and they can delete or add ingredients based on their preferences. At the end, they can visualize their products added to the shopping cart and purchase them.",
     siteUrl: "",
     gitHubUrl: "",
-    mainImage: "",
+    mainImage: "img/main-img-refresh.png",
     technologiesUsed: [
-      "spring-logo",
-      "bootstrap-logo",
-      "mysql-logo",
-      "thymeleaf-logo",
-      "hibernate-logo",
-      "angular-logo"
-    ]
-  },
-  {
-    nameOfProject: "Grocery Store",
-    alias: "grocery",
-    description: "tralala grocery store",
-    siteUrl: "",
-    gitHubUrl: "",
-    mainImage: "",
-    technologiesUsed: [
-      "spring-logo",
-      "bootstrap-logo",
-      "mysql-logo",
-      "thymeleaf-logo",
-      "hibernate-logo",
-      "angular-logo"
-    ]
-  },
-  {
-    nameOfProject: "Carfy",
-    alias: "carfy",
-    description: "tralala carfy",
-    siteUrl: "",
-    gitHubUrl: "",
-    mainImage: "",
-    technologiesUsed: [
-      "spring-logo",
-      "bootstrap-logo",
-      "mysql-logo",
-      "thymeleaf-logo",
-      "hibernate-logo",
-      "angular-logo"
+      "html-logo",
+      "sass-logo",
+      "javascript-logo"
     ]
   }
 ];
@@ -139,8 +106,8 @@ function modifyTechnologiesOfProject(selectedNameOfProject) {
     srcImage = "img/" + technology + ".png";
     let parent = document.createElement('div');
     let child = document.createElement('img');
-    parent.className = 'container-skills no-height';
-    child.className = 'image static-size-img dynamic-logo';
+    parent.className = 'container-skills-tech no-height';
+    child.className = 'image-tech static-size-img dynamic-logo';
     parent.setAttribute('data-aos', 'zoom-in-right');
     child.setAttribute('src', srcImage);
     parent.appendChild(child);
